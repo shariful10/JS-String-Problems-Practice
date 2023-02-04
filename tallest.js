@@ -1,6 +1,6 @@
-function maxNumberOfArray(numbers){
+function maxNumberOfArray(numbers) {
     let largest = numbers[0];
-    for (let index = 0; index < numbers.length; index ++) {
+    for (let index = 0; index < numbers.length; index++) {
         const element = numbers[index];
         if (element > largest) {
             largest = element;

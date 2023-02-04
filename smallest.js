@@ -1,6 +1,6 @@
-function lowestNumberOfArray(numbers){
+function lowestNumberOfArray(numbers) {
     let smallest = numbers[0];
-    for (let index = 0; index < numbers.length; index ++) {
+    for (let index = 0; index < numbers.length; index++) {
         const element = numbers[index];
         if (smallest > element) {
             smallest = element;

@@ -9,4 +9,3 @@ if (jim > dela && jim > chinku) {
 } else {
     console.log('Chinku will get the cake');
 }
-
